@@ -1,0 +1,242 @@
+====================
+     11-20-2015
+====================
+
+
+   * frameworks/base/
+f657a38 Statusbar powerkey. Initial commit (frameworks/base patch)
+13adbc6 frameworks: hardcode package name to android
+007b862 MountService: allow overriding default storage list with ro.storage_list.override
+e49d5ea Recents: Fix IndexOutOfBoundsException
+
+   * hardware/qcom/media-caf/msm8974/
+bacc69d HACK: mm-video: vidc: make video recording AND playback work for now
+
+   * packages/apps/Contacts/
+c8627bd Add permissions to export vcards to storages
+
+   * packages/apps/Dialer/
+3a6c35c fix callrecoding(amr)
+
+====================
+     11-19-2015
+====================
+
+
+   * frameworks/base/
+ed834ca Shell: Declare cyanogenmod WRITE for system and secure settings.
+efb9ba7 Listen phone state change
+
+   * frameworks/opt/telephony/
+2057518 Fix default network mode reset on sim1
+
+   * packages/apps/Dialer/
+386fc09 dialer: fix fc on secundary users
+
+   * packages/services/Telecomm/
+15679e2 Telecomm: Fix crash for SIP on dual sims device
+e08bab3 - Fix SIP soft-reboot on call
+
+====================
+     11-18-2015
+====================
+
+
+====================
+     11-17-2015
+====================
+
+
+   * build/
+1395703 gdbclient: fix build output directory path
+
+   * packages/apps/Settings/
+ff01cb1 Settings: regulatory: Wrap the layout in a ScrollView
+
+   * packages/apps/Trebuchet/
+1c46bab Live Settings: always rebuild DynamicGrid
+
+   * vendor/cm/
+e5b8b5a cm: make cgroups files read-only for all users
+
+====================
+     11-16-2015
+====================
+
+
+   * packages/apps/ContactsCommon/
+8ace389 Fix contact JSON record parsing.
+
+====================
+     11-15-2015
+====================
+
+
+====================
+     11-14-2015
+====================
+
+
+   * bootable/recovery/
+c9b1143 recovery: add opt-out of exFAT
+
+====================
+     11-13-2015
+====================
+
+
+   * system/vold/
+336f513 cryptfs: Unbreak hardware-backed pattern lock + encryption
+
+====================
+     11-12-2015
+====================
+
+
+   * frameworks/opt/telephony/
+7df85d5 telephony: use phoneaccounts to determine voiceprompt status
+
+====================
+     11-11-2015
+====================
+
+
+   * external/wpa_supplicant_8/
+9ec7ddc NFC: Fix payload length validation in NDEF record parser
+47b5051 WNM: Ignore Key Data in WNM Sleep Mode Response frame if no PMF in use
+bac9fa8 EAP-pwd peer: Fix last fragment length validation
+c69b9d1 EAP-pwd server: Fix last fragment length validation
+6a51515 EAP-pwd peer: Fix error path for unexpected Confirm message
+
+   * frameworks/opt/telephony/
+aea6eb3 [DO NOT MERGE] Harmlessly (?) fixes LOD on Sprint and Verizon (?) via Fallback
+
+   * packages/apps/Settings/
+50fed8b Settings: add opt out stats event
+
+   * system/extras/su/
+ee9de09 Merge "replace insecure uid spoofing code" into cm-12.1
+
+   * vendor/cmsdk/
+0c0aef6 CMSettings: add reporting status setting
+
+====================
+     11-10-2015
+====================
+
+
+   * packages/providers/ThemesProvider/
+2f386fc Fix applied previews query when component doesn't exist
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+f22f062 Add NOTICE and MODULE_LICENSE files.
+
+   * system/extras/su/
+860479b replace insecure uid spoofing code
+
+   * system/vold/
+314f910 vold: add opt-out for exFAT
+
+   * vendor/cm/
+675f474 cm: add opt-out for exFAT
+
+====================
+     11-09-2015
+====================
+
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+3122899 Revert "Revert "Update prebuilt gold for --pic-veneer option.""
+
+   * system/extras/su/
+1e7b152 daemon: Validate the socket caller's requested FDs
+4f4cd57 su: Remove dead code
+
+====================
+     11-08-2015
+====================
+
+
+   * packages/apps/Settings/
+c2ca831 Settings: Add security level default string
+
+====================
+     11-07-2015
+====================
+
+
+   * frameworks/av/
+861b59e audiopolicy: Fix A family a2dp mismerge
+
+   * frameworks/base/
+857b8ef Automatic translation import
+
+   * packages/apps/AudioFX/
+4a77508 Automatic translation import
+
+   * packages/apps/CMFileManager/
+8c39954 Automatic translation import
+
+   * packages/apps/Camera2/
+e6b9797 Automatic translation import
+
+   * packages/apps/Contacts/
+aa29642 Automatic translation import
+
+   * packages/apps/Dialer/
+a3845ef Automatic translation import
+
+   * packages/apps/Eleven/
+9d2f804 Automatic translation import
+
+   * packages/apps/Gallery2/
+6912a34 Automatic translation import
+
+   * packages/apps/LockClock/
+8751c90 Automatic translation import
+
+   * packages/apps/Mms/
+fee5d24 Automatic translation import
+
+   * packages/apps/Settings/
+7a985ee Remove CM translations of security_patch
+99c7c51 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+cb8b79c Automatic translation import
+
+   * packages/apps/Trebuchet/
+692799c Automatic translation import
+
+   * packages/apps/TvSettings/
+11ffa66 Automatic translation import
+
+   * packages/services/Telephony/
+c10cca6 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+7ee94ae Automatic translation import
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+4b05a5a Revert "Update prebuilt gold for --pic-veneer option."
+
+   * vendor/cmsdk/
+a6d50e0 Automatic translation import
+
+====================
+     11-06-2015
+====================
+
+
+   * frameworks/base/
+d6aedda base: get rid of android time class
+
+   * frameworks/opt/net/wifi/
+af2b866 wifi: don't disable AP on sub change if it's the same sub
+
+   * packages/apps/Settings/
+24a133a wifi: Add a filter
+
+   * prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9/
+3d2f537 Update prebuilt gold for --pic-veneer option.
+
